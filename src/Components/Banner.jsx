@@ -20,7 +20,7 @@ const Banner = () => {
                   </div>
                   </div>
                   <p className="mb-8 max-w-lg mx-auto lg:mx-0">
-                      I am Sheilla Williams a lawyer and an advocate, I am passionate about helping people resolve their disputes and conflicts amicably.
+                      I am Sheilla Williams an advocate, I am passionate about helping people resolve their disputes and conflicts amicably.
                   </p>
                   <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
                       <button  className="btn btn-lg">Contact Me</button>
