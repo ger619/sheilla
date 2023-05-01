@@ -1,25 +1,24 @@
 import { FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import Image from '../assets/avartar.png';
-import Header from "./Header.jsx";
 // import { motion } from "framer-motion";
 // import { fadeIn  } from "../variants";
 
 const Banner = () => {
   return (
-      <section className="min-h-[85vh] lg:min-h-[78vh] flex items-center" id="home">
-           <div className="container mx-auto ">
-              <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
+      <section className="section" id="home">
+          <div className="container mx-auto ">
+              <div>
                   <div className="flex-1 text-center font-secondary lg:text-left">
-                      <h1 className="text-[55px] font-bold leading-[0.8] lg:text-[60px]">
+                      <h1 className="text-[46px] font-bold leading-[0.8] lg:text-[72px]">
                           SHEILLA <span>WILLIAMS</span>
                       </h1>
 
-                  <div className="mb-6 text-[36px] lg:text-[50px] font-secondary font-semibold uppercase leading-[1]">
+                  <div className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
                       <span className="text-white mr-4">I am</span>
                       <TypeAnimation sequence={['An Advocate', 2000, 'A Mediator', 2000]} speed={50} className='text-accent' wrapper="span" repeat={Infinity} />
                   </div>
-
+                  </div>
                   <p className="mb-8 max-w-lg mx-auto lg:mx-0">
                       I am Sheilla Williams an advocate, I am passionate about helping people resolve their disputes and conflicts amicably.
                   </p>
@@ -35,7 +34,6 @@ const Banner = () => {
                       <a href="#">
                           <FaLinkedinIn />
                       </a>
-                  </div>
                   </div>
                   <div>
                       <img src={Image} alt="avatar" className="rounded-full mx-auto" />
